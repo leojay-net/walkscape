@@ -1,6 +1,6 @@
 # WalkScape
 
-A blockchain-powered location-based exploration game built on Starknet that connects the real world with digital adventures. Touch grass, discover artifacts, grow digital pets, and build communities while exploring your surroundings.
+A blockchain-powered location-based exploration game built on CrossFI that connects the real world with digital adventures. Touch grass, discover artifacts, grow digital pets, and build communities while exploring your surroundings.
 
 ## What is WalkScape?
 
@@ -76,8 +76,8 @@ WalkScape leverages advanced AI to create intelligent, location-aware gameplay:
 ## Technical Architecture
 
 ### Blockchain Layer
-- **Starknet Integration**: Full smart contract interaction via Cairo
-- **Wallet Support**: ArgentX and Braavos wallet compatibility
+- **CrossFI Integration**: Full smart contract interaction via Solidity
+- **Wallet Support**: MetaMask and compatible wallet support
 - **Transaction Management**: Reliable confirmation and error handling
 - **Gas Optimization**: Efficient contract calls and batch operations
 
@@ -126,7 +126,7 @@ cp .env.example .env.local
 ```bash
 # Required environment variables
 NEXT_PUBLIC_CONTRACT_ADDRESS=0x...  # Deployed WalkScape contract
-NEXT_PUBLIC_RPC_URL=https://...     # Starknet RPC endpoint
+NEXT_PUBLIC_RPC_URL=https://...     # CrossFI RPC endpoint
 NEXT_PUBLIC_GEMINI_API_KEY=...      # Google Gemini API key for AI features
 ```
 

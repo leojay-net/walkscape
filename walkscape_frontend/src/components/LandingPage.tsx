@@ -98,7 +98,7 @@ export default function LandingPage() {
 
                             <p className="text-xl text-slate-300 mb-8 max-w-2xl">
                                 The first social exploration game that turns your daily walks into epic adventures.
-                                Built on Starknet, powered by your steps.
+                                Built on CrossFI, powered by your steps.
                             </p>
 
                             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -261,7 +261,7 @@ export default function LandingPage() {
                             {
                                 step: "01",
                                 title: "Connect Wallet",
-                                description: "Link your Starknet wallet to securely store your progress, artifacts, and earnings.",
+                                description: "Link your CrossFI wallet to securely store your progress, artifacts, and earnings.",
                                 icon: <Shield className="w-12 h-12 text-green-400" />
                             },
                             {
@@ -357,7 +357,7 @@ export default function LandingPage() {
                         Launch WalkScape
                     </ConnectButton>
                     <div className="text-sm text-slate-400">
-                        Powered by Starknet • Built for Explorers
+                        Powered by CrossFI • Built for Explorers
                     </div>
                 </div>
             </section>
